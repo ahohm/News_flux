@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F9F9FA"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".Register"
+    tools:ignore="ExtraText">
+/>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="203dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:text="Log in"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="315dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="308dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="288dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="130dp"
+            android:gravity="center"
+            android:onClick="onRegister"
+            android:text="If not registered ? sign up "
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
+"</LinearLayout>
+

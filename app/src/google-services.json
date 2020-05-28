@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "17507868382",
+    "firebase_url": "https://global-news-bfeab.firebaseio.com",
+    "project_id": "global-news-bfeab",
+    "storage_bucket": "global-news-bfeab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17507868382:android:efca85054bb5305e29ac4f",
+        "android_client_info": {
+          "package_name": "com.aho.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17507868382-7tj47ru6hf3q5chns6s2deqapm044ka9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aho.news",
+            "certificate_hash": "052b21783c20626b603364f9bce9ee69a765e7d8"
+          }
+        },
+        {
+          "client_id": "17507868382-0hd8c1atl8lnp9mc4hne3jge45acrdr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB19rQjwMtK2Y_V8OtOq4JQGNg9jC476o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17507868382-0hd8c1atl8lnp9mc4hne3jge45acrdr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
