@@ -41,6 +41,8 @@
                 android:ems="10"
                 android:hint="  Email"
                 android:inputType="textPersonName"
+                android:background="@drawable/btn1"
+                android:elevation="2dp"
                 />
 
             <EditText
@@ -51,6 +53,8 @@
                 android:ems="10"
                 android:hint="  Password"
                 android:inputType="textPassword"
+                android:background="@drawable/btn1"
+                android:elevation="2dp"
                 />
 
             <Button
